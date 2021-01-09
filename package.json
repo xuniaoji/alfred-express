@@ -1,0 +1,14 @@
+{
+  "name": "user.workflow.0ce877e7-54a1-4c4e-aaff-67b1893adb8b",
+  "version": "1.0.0",
+  "description": "shuming express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alfy": "^0.10.0"
+  }
+}
