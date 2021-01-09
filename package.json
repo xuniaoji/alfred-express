@@ -2,6 +2,7 @@
   "name": "alfred-express",
   "version": "1.0.0",
   "description": "shuming express",
+  "repository": "https://github.com/xuniaoji/alfred-express",
   "main": "index.js",
   "scripts": {
     "test": "ava",
@@ -25,6 +26,7 @@
     "express",
     "快递",
     "binstd.com",
+    "进制数据",
     "alfred",
     "alfred-workflow",
     "workflow",

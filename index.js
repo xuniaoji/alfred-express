@@ -1,12 +1,14 @@
 'use strict';
 const alfy = require('alfy');
+
+const YOUR_APP_KEY = '9840c89646f56003';
 // const inputsSF1045668055288 = alfy.input.split(',');
 // const number = inputs[0];
 // const mobile = inputs[1];
 (async () => {
   const data = await alfy.fetch('https://api.binstd.com/express/query', {
     query: {
-      appkey: '9840c89040f56003',
+      appkey: YOUR_APP_KEY,
       type: 'auto',
       number: alfy.input,
       // mobile,
