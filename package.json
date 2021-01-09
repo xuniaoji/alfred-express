@@ -1,14 +1,33 @@
 {
-  "name": "user.workflow.0ce877e7-54a1-4c4e-aaff-67b1893adb8b",
+  "name": "alfred-express",
   "version": "1.0.0",
   "description": "shuming express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "xuniaoji",
+    "email": "xuniaoji@gmail.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "alfy": "^0.10.0"
-  }
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.25.0"
+  },
+  "keywords": [
+    "delivery",
+    "express",
+    "快递",
+    "binstd.com",
+    "alfred",
+    "alfred-workflow",
+    "workflow",
+    "alfy"
+  ]
 }

@@ -8,11 +8,23 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>BB44C92A-F0D4-48E3-A808-BB0FE0F82A52</key>
+		<array/>
 		<key>F0DEC666-CE8D-4A16-A822-78DD582AD657</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>E56ADDD5-B37B-4A2C-B425-184CF75B2346</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BB44C92A-F0D4-48E3-A808-BB0FE0F82A52</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -100,15 +112,39 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}', {allvars}</string>
+				<key>cleardebuggertext</key>
+				<false/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>BB44C92A-F0D4-48E3-A808-BB0FE0F82A52</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>BB44C92A-F0D4-48E3-A808-BB0FE0F82A52</key>
+		<dict>
+			<key>xpos</key>
+			<integer>495</integer>
+			<key>ypos</key>
+			<integer>360</integer>
+		</dict>
 		<key>E56ADDD5-B37B-4A2C-B425-184CF75B2346</key>
 		<dict>
 			<key>xpos</key>
-			<integer>455</integer>
+			<integer>590</integer>
 			<key>ypos</key>
 			<integer>175</integer>
 		</dict>
