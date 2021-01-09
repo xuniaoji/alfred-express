@@ -14,6 +14,16 @@ _Requires [Node.js](https://nodejs.org) 8+ and the Alfred [Powerpack](https://ww
 
 ## Usage
 
+### 1. get appkey
+
+go to [binstd](https://www.binstd.com/api/express.html), the free account will allow 1000 times api call.
+
+### 2. add appkey in workflow environment variable
+
+![environment_variable](./environment_variable.png)
+
+### 3. Do it
+
 In Alfred, type `kd`, <kbd>Enter</kbd>, and the package order number, to get the details about the express package.
 
 ## Related

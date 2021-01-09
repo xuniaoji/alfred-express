@@ -1,7 +1,7 @@
 'use strict';
 const alfy = require('alfy');
 
-const YOUR_APP_KEY = process.env.API_KEY;
+const YOUR_APP_KEY = process.env.APP_KEY;
 // const inputsSF1045668055288 = alfy.input.split(',');
 // const number = inputs[0];
 // const mobile = inputs[1];
@@ -11,7 +11,7 @@ const YOUR_APP_KEY = process.env.API_KEY;
       appkey: YOUR_APP_KEY,
       type: 'auto',
       number: alfy.input,
-      // mobile,
+      // mobile, 文档说顺丰需要手机号, 实测不需要也可以
     },
   });
 

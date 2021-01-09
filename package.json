@@ -1,7 +1,7 @@
 {
   "name": "alfred-express",
   "version": "1.0.0",
-  "description": "shuming express",
+  "description": "alfred4 workflow to get the express package delivery details",
   "repository": "https://github.com/xuniaoji/alfred-express",
   "main": "index.js",
   "scripts": {
