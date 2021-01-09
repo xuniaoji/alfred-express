@@ -24,7 +24,7 @@ const YOUR_APP_KEY = process.env.API_KEY;
       };
     });
     const firstLine = data.result.deliverystatus === 3 ? '已签收' : '在路上';
-    items.unshift({ title: data.result.typename, subtitle: firstLine });
+    items.unshift({ title: firstLine, subtitle: data.result.typename });
   } else {
     items = [
       {
