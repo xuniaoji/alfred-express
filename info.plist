@@ -41,7 +41,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Express-search</string>
+	<string>Express</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -159,12 +159,10 @@
 	<key>variables</key>
 	<dict>
 		<key>APP_KEY</key>
-		<string>9840c89040f56003</string>
+		<string></string>
 	</dict>
 	<key>variablesdontexport</key>
-	<array>
-		<string>APP_KEY</string>
-	</array>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>

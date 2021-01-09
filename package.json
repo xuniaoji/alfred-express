@@ -10,7 +10,7 @@
     "preuninstall": "alfy-cleanup"
   },
   "author": {
-    "name": "xuniaoji",
+    "name": "shuming",
     "email": "xuniaoji@gmail.com"
   },
   "license": "MIT",
@@ -25,7 +25,7 @@
     "delivery",
     "express",
     "快递",
-    "binstd.com",
+    "binstd",
     "进制数据",
     "alfred",
     "alfred-workflow",
