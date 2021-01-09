@@ -1,7 +1,7 @@
 'use strict';
 const alfy = require('alfy');
 
-const YOUR_APP_KEY = '9840c89646f56003';
+const YOUR_APP_KEY = process.env.API_KEY;
 // const inputsSF1045668055288 = alfy.input.split(',');
 // const number = inputs[0];
 // const mobile = inputs[1];

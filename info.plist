@@ -37,13 +37,32 @@
 	<key>createdby</key>
 	<string>shuming</string>
 	<key>description</key>
-	<string>快递, 1000次免费</string>
+	<string>Alfred4查快递, 前1000次免费, 需要自己申请APPKEY</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
 	<string>Express-search</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>E56ADDD5-B37B-4A2C-B425-184CF75B2346</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -96,25 +115,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>E56ADDD5-B37B-4A2C-B425-184CF75B2346</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string>'{query}', {allvars}</string>
 				<key>cleardebuggertext</key>
@@ -156,7 +156,18 @@
 			<integer>175</integer>
 		</dict>
 	</dict>
-	<key>webaddress</key>
+	<key>variables</key>
+	<dict>
+		<key>API_KEY</key>
+		<string>9840c89040f56003</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>API_KEY</string>
+	</array>
+	<key>version</key>
 	<string></string>
+	<key>webaddress</key>
+	<string>https://github.com/xuniaoji/alfred-express</string>
 </dict>
 </plist>
