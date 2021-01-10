@@ -2,7 +2,7 @@
 
 > [Alfred 4](https://www.alfredapp.com) workflow to get the express package delivery details for npm packages with [npmjs](https://www.npmjs.com/)
 
-<img src="Snipaste1.png">
+<img src="Snipaste1.png" />
 
 ## Install
 
@@ -20,7 +20,7 @@ go to [binstd](https://www.binstd.com/api/express.html), the free account will a
 
 ### 2. add appkey in workflow environment variable
 
-![environment_variable](./environment_variable.png)
+![environment_variable](environment_variable.png)
 
 ### 3. Do it
 
