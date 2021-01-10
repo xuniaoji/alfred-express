@@ -30,6 +30,11 @@ In Alfred, type `kd`, <kbd>Enter</kbd>, and the package order number, to get the
 
 - [alfy](https://github.com/sindresorhus/alfy) - Create Alfred workflows with ease
 
+## Known issues
+
+1. Test failed
+   The test failed because of can't get the environment variable when running test, I have raise [the issue](https://github.com/SamVerschueren/alfy-test/issues/10) in alfy-test repo.
+
 ## License
 
 MIT ©
