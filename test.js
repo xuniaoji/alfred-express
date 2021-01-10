@@ -7,8 +7,8 @@ test('main', async (outputs) => {
   const result = await alfy('YT5169043866581');
 
   outputs.deepEqual(result[0], {
-    title: '圆通速递',
-    subtitle: '已签收',
+    title: '已签收',
+    subtitle: '圆通速递',
   });
 
   outputs.deepEqual(result[1], {
@@ -24,7 +24,7 @@ test('顺丰现在也不需要手机号', async (outputs) => {
   const result = await alfy('SF1045668055288');
 
   outputs.deepEqual(result[0], {
-    title: '顺丰速运',
-    subtitle: '已签收',
+    title: '已签收',
+    subtitle: '顺丰速运',
   });
 });
