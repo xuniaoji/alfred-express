@@ -1,6 +1,6 @@
 # alfred-express
 
-> [Alfred 4](https://www.alfredapp.com) workflow to get the express package delivery details for npm packages with [npmjs](https://www.npmjs.com/)
+> [Alfred 4](https://www.alfredapp.com) workflow to get the express package delivery details for npm packages with [npmjs](https://www.npmjs.com/package/alfred-express)
 
 <img src="Snipaste1.png" />
 
