@@ -1,6 +1,6 @@
 {
   "name": "alfred-express",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "alfred4 workflow to get the express package delivery details",
   "repository": "https://github.com/xuniaoji/alfred-express",
   "main": "index.js",
@@ -24,12 +24,16 @@
   "keywords": [
     "delivery",
     "express",
+    "logistics",
     "快递",
+    "物流",
+    "顺丰",
     "binstd",
     "进制数据",
     "alfred",
     "alfred-workflow",
     "workflow",
-    "alfy"
+    "alfy",
+    "alfy-test"
   ]
 }
